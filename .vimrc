@@ -426,11 +426,6 @@
         endif
     " }
 
-    " PIV {
-        let g:DisableAutoPHPFolding = 0
-        let g:PIVAutoClose = 0
-    " }
-
     " Misc {
         let g:NERDShutUp=1
         let b:match_ignorecase = 1
@@ -526,10 +521,6 @@
         nmap <leader>sc :SessionClose<CR>
     " }
 
-    " JSON {
-        nmap <leader>jt <Esc>:%!python -m json.tool<CR><Esc>:set filetype=json<CR>
-    " }
-
     " PyMode {
         " Disable if python support not present
         if !has('python')
@@ -595,7 +586,6 @@
             \ 'ctagsargs' : '-sort -silent'
             \ }
     "}
-
 
     " Fugitive {
         nnoremap <silent> <leader>gs :Gstatus<CR>
@@ -1096,3 +1086,4 @@
         endif
     endif
 " }
+" o
