@@ -157,6 +157,9 @@
             if executable('ctags')
                 Bundle 'majutsushi/tagbar'
             endif
+            if executable('global')
+                Bundle 'vim-scripts/gtags.vim'
+            endif
         endif
     " }
 
